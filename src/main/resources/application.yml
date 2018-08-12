@@ -1,7 +1,7 @@
  spring: 
    thymeleaf: 
      mode: LEGACYHTML5
-     cache: false
+     cache: true
    mvc:
      favicon:
        enabled: true
