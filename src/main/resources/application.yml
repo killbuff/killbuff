@@ -2,3 +2,6 @@
    thymeleaf: 
      mode: LEGACYHTML5
      cache: false
+   mvc:
+     favicon:
+       enabled: true
