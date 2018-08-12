@@ -468,10 +468,17 @@
 	<!--[if !IE]><!-->
 		<script src="assets/plugins/jquery/jquery-3.2.1.min.js"></script>
 	<!--<![endif]-->
-	<!--[if IE 8]><!-->
+	
+	<!--[if lt IE 9]><!-->
 		<script src="assets/plugins/jquery/jquery-1.12.4.min.js"></script>
 	<!--<![endif]-->
+	
+	<!--[if gte IE 9]><!-->
+		<script src="assets/plugins/jquery/jquery-3.2.1.min.js"></script>
+	<!--<![endif]-->
+	
 	<script src="assets/plugins/bootstrap3/js/bootstrap.min.js"></script>
+	
 	<!--[if lt IE 9]><!-->
 		<script src="assets/crossbrowserjs/html5shiv.js"></script>
 		<script src="assets/crossbrowserjs/respond.min.js"></script>
